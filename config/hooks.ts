@@ -20,11 +20,12 @@ export const menus = [
       'useSetState',
       'useToggle',
       'useThrottle',
+      'useStateTest'
     ],
   },
   {
     title: 'Effect',
-    children: ['useDebounceFn', 'useThrottleFn', 'useUpdateEffect'],
+    children: ['useDebounceFn', 'useThrottleFn', 'useUpdateEffect', 'useAsyncEffect'],
   },
   {
     title: '进阶',

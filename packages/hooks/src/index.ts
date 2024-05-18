@@ -20,7 +20,8 @@ import useToggle from './useToggle';
 import useUnmount from './useUnmount';
 import useUnmountedRef from './useUnmountedRef';
 import useUpdateEffect from './useUpdateEffect';
-
+import useAsyncEffect from './useAsyncEffect';
+import useStateTest from './useStateTest';
 export {
   createUpdateEffect,
   useBoolean,
@@ -43,5 +44,7 @@ export {
   useToggle,
   useUnmount,
   useUnmountedRef,
+  useStateTest,
+  useAsyncEffect,
   useUpdateEffect,
 };
