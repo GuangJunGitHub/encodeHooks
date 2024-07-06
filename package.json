@@ -1,6 +1,6 @@
 {
   "name": "react-hooks-demo",
-  "description": "React 业务 Hooks",
+  "description": "ReactHooks",
   "private": false,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
