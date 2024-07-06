@@ -17,5 +17,6 @@ tsconfig.tsbuildinfo
 packages/hooks/README.md
 yarn-error.log
 package-lock.json
+pnpm-lock.json
 metadata.json
 .eslintcache
