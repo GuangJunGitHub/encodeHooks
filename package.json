@@ -1,5 +1,5 @@
 {
-  "name": "encode-hooks",
+  "name": "react-hooks-demo",
   "description": "React 业务 Hooks",
   "private": true,
   "scripts": {
