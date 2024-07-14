@@ -18,7 +18,7 @@ export const createUpdateEffect: (hook: EffectHookType) => EffectHookType =
       if (!isMounted.current) {
         isMounted.current = true;
       } else {
-        return effect();
+        return effect(); // 带return标记结束当前effect执行函数，结束后才会运行effect函数里后续的清理函数
       }
     }, deps);
   };
